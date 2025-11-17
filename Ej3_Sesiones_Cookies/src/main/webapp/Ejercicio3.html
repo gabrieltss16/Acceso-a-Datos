@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Librería</title>
+</head>
+<body>
+    <h1>Bienvenido a Web Librería</h1>
+    <form action="Servlet3" method="post">
+        <label for="libro">Seleccione el libro:</label>
+        <select name="libro" id="libro">
+            <option value="Java">Java</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="VB">VB</option>
+            <option value="Python">Python</option>
+        </select>
+        <br>
+        <label for="unidades">Unidades: </label>
+        <input type="number" name="unidades" id="unidades" value="1" min="1">
+        <button type="submit" name="accion" value="añadir">Enviar</button>
+        <br>
+    </form>
+        <p><a href='Servlet3?accion=ver'>Ver compra</a>
+    
+</body>
+</html>

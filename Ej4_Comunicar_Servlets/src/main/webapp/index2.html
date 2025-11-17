@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablas de multiplicar</title>
+</head>
+<body>
+    <form action="Servlet2Despachador" method="post">
+        <table border="1" cellpadding="10" cellspacing="0" bgcolor="#ccddff" width="350">
+            <tr>
+                <td colspan="2" align="center" bgcolor="#ccccff">
+                    <b>Tablas de multiplicar</b>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffcc00"><b>Número:</b></td>
+                <td>
+                    <select name="numero" size="1">
+                        <option value="">Elige una tabla</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Elige un color para la tabla</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" name="color" id="negro" value="negro">
+                    <label for="negro">Negro</label><br>
+
+                    <input type="radio" name="color" id="rojo" value="rojo">
+                    <label for="rojo">Rojo</label><br>
+
+                    <input type="radio" name="color" id="verde" value="verde">
+                    <label for="verde">Verde</label><br>
+
+                    <input type="radio" name="color" id="azul" value="azul">
+                    <label for="azul">Azul</label><br>
+
+                    <input type="radio" name="color" id="naranja" value="naranja">
+                    <label for="naranja">Naranja</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" bgcolor="#99ccff">
+                    <input type="submit" value="Crear">
+                    <input type="reset" value="Borrar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
