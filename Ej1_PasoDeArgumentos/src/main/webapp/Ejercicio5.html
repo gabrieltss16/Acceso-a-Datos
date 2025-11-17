@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Datos</title>
+</head>
+<body>
+
+<h2>Formulario de Datos del Alumno</h2>
+
+<form action="Servlet5" method="post">
+
+    <fieldset>
+        <legend>Asignaturas</legend>
+        <label for="asignaturas">Selecciona asignatura/s:</label><br>
+        <select id="asignaturas" name="asignaturas" multiple size="4">
+            <option value="Matemáticas">Matemáticas</option>
+            <option value="Literatura">Literatura</option>
+            <option value="Inglés">Inglés</option>
+            <option value="Tecnología">Tecnología</option>
+        </select>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" id="hombre" name="sexo" value="Hombre" checked>
+        <label for="hombre">Hombre</label><br>
+        <input type="radio" id="mujer" name="sexo" value="Mujer">
+        <label for="mujer">Mujer</label>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Actividades extraescolares</legend>
+        <input type="checkbox" id="musica" name="actividades" value="Música">
+        <label for="musica">Música</label><br>
+        <input type="checkbox" id="futbol" name="actividades" value="Fútbol">
+        <label for="futbol">Fútbol</label><br>
+        <input type="checkbox" id="teatro" name="actividades" value="Teatro">
+        <label for="teatro">Teatro</label>
+    </fieldset>
+    <br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+
+</form>
+
+</body>
+</html>
